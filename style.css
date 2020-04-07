@@ -1,0 +1,129 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.textarea {
+    display: block;
+    width: 700px;
+    height: 300px;
+    margin: 0 auto 10px;
+    padding: 10px;
+    font-size: 18px;
+    color: #444444;
+}
+
+.info {
+    display: block;
+    width: 700px;
+    height: 300px;
+    margin: 0 auto 10px;
+    padding: 10px;
+    font-size: 18px;
+    color: #444444;
+}
+
+.keyboard {
+    width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #b3aeae;
+    border: 3px solid #222222;
+    border-radius: 5px;
+}
+
+.keyboard__keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.key_button {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2em;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgb(255, 255, 255);
+}
+
+.key_button-active {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.key_button:hover {
+    background-color: rgba(164, 164, 164, 0.4);
+}
+
+.key_button-wide {
+    width: 89px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: rgba(164, 164, 164, 0.4);
+    color: rgb(255, 255, 255);
+}
+
+.key_button-wide-active {
+    width: 89px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgba(164, 164, 164, 0.4);
+}
+
+.key_button-wide:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.key_button-wide-spaceBar {
+    width: 320px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.key_button-wide-spaceBar-active {
+    width: 320px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.key_button-wide-spaceBar:hover {
+    background-color: rgba(164, 164, 164, 0.4);
+}
+
+.key_button-func {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: rgba(164, 164, 164, 0.4);
+    color: rgb(255, 255, 255);
+}
+
+.key_button-func-active {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgba(164, 164, 164, 0.4);
+}
+
+.key_button-func:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+span {
+    clear: both;
+    display: block;
+    width: 100%;
+    padding: 3px;
+}
